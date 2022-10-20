@@ -40,7 +40,6 @@
   width: 388px;
   left: 64px;
   bottom: 30px;
-  position: absolute;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -233,7 +232,7 @@
 .table_theme_dark {
   display: flex;
   z-index: 1;
-  margin-bottom: 90px ;
+  margin-bottom: 90px;
   justify-content: space-between;
   align-content: space-between;
   flex-wrap: wrap;
@@ -246,10 +245,9 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin: 0;
-}
-.table__text_theme_dark{
   margin: 0 0 20px;
+}
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -278,7 +276,6 @@
   width: 90%;
   margin:60px auto 40px;
   position: relative;
-  margin: 60px auto 40px;
 }
 .footer__column_content_copyright {
   display: flex;
