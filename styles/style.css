@@ -148,7 +148,7 @@
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
-  bottom: 0;
+  margin-top: 0;
 }
 .table__text {
   line-height: 1.2;
@@ -260,13 +260,16 @@
   z-index: -1;
   background-image: url(../images/kaufman-triangle.svg);
 }
-  .footer {
+.footer {
   display: flex;
   min-height: 350px;
   background-color: #1f1f1f;
   color: #ffffff;
   box-sizing: border-box;
-  }
+}
+.footer__column-links {
+  margin-bottom: 16px;
+}
 .footer__columns {
   display: flex;
   box-sizing: border-box;
@@ -308,7 +311,6 @@
   font-weight: normal;
   text-decoration: #ffffff;
   color: #ffffff;
-  bottom: 16px;
 }
 .footer__column_content_social {
   display: flex;
