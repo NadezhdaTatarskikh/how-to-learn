@@ -102,6 +102,7 @@
 }
 .two-columns__paragraph {
   font-weight: normal;
+  margin: 0 0 30px;
 }
 .two-columns__paragraph:last-child {
   margin-bottom: 0;
@@ -147,6 +148,7 @@
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
+  bottom: 0;
 }
 .table__text {
   line-height: 1.2;
@@ -181,8 +183,8 @@
 }
 .feynman__image {
   position: absolute;
-  width: 867;
-  height: 637;
+  width: 867px;
+  height: 637px;
   bottom: 0;
   left: 0;
 }
@@ -306,15 +308,14 @@
   font-weight: normal;
   text-decoration: #ffffff;
   color: #ffffff;
+  bottom: 16px;
 }
-.footer__columns_content_social {
+.footer__column_content_social {
   display: flex;
-
-  right: 0;
   flex-direction: column;
-  margin: 0 auto 20px;
 }
 .footer__social-icon {
+  margin: 0;
   width: 16px;
   height: 16px;
   fill: none;
